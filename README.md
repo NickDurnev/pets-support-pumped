@@ -1,37 +1,63 @@
-**Read deploy documentation: [Delpoy](README.deploy.md).**
+# Petly
 
-# Pet support App documentation
+Petly is a web application built with React, Redux and other technologies. It
+allows users to find new pet or create posts with their pet.
 
-This project was created with
-[Create React App](https://github.com/facebook/create-react-app). For
-acquaintance and customize additional features
-[refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-## About
+- Registration and authentication
+- Search for pets by main and add categories and fields
+- Add posts to favorites
+- CRUD your posts
 
-This application allows you to find cute pets, sell pets. You can add notice to
-find you lost pet.
+## Technologies Used
 
-## Used library
+- React
+- Redux Toolkit
+- RTK Query
+- Emotion
+- YUP
+- React Toastify
+- React Hook Form
+- Prop Types
 
-### State Management, Asynchronous Queries and Local Storage
+## Scripts Usage
 
-- react-redux
-- redux-toolkit
-- redux-persist
+This project uses the following scripts:
 
-### Routing
+```bash
+npm run build
+```
 
-- react-router-dom
+Builds the application for production use.
 
-### Forms
+```bash
+npm start
+```
 
-- formik
-- yup
-- body-scroll-lock
+Starts the application in production mode.
 
-### Styling
+```bash
+npm run lint:js
+```
 
-- emotion
-- modern-normalize
-- react-toastify
+Lints the code for any errors or warnings.
+
+```bash
+npm run test
+```
+
+Run tests
+
+```bash
+npm run eject
+```
+
+Remove all of the default configurations and dependencies that were installed by
+create-react-app.
+
+```bash
+npm run deploy
+```
+
+Deploy project to Netlify service.
